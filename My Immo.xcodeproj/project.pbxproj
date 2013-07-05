@@ -19,6 +19,27 @@
 		683808D11784281C00341C1B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683808CF1784281C00341C1B /* MainStoryboard_iPhone.storyboard */; };
 		683808D41784281C00341C1B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683808D21784281C00341C1B /* MainStoryboard_iPad.storyboard */; };
 		683808D71784281C00341C1B /* MIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683808D61784281C00341C1B /* MIViewController.m */; };
+		683808DE178428CF00341C1B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683808DD178428CF00341C1B /* MapKit.framework */; };
+		683808E11784292300341C1B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683808DF1784292300341C1B /* AddressBook.framework */; };
+		683808E21784292300341C1B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683808E01784292300341C1B /* AddressBookUI.framework */; };
+		683808E817842C6700341C1B /* MIAddGoodActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 683808E717842C6700341C1B /* MIAddGoodActivity.m */; };
+		683808EA17842DAC00341C1B /* AddGoodViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683808E917842DAC00341C1B /* AddGoodViewController_iPad.xib */; };
+		683808EE17842DE700341C1B /* MIAddGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683808ED17842DE700341C1B /* MIAddGoodViewController.m */; };
+		683808F2178447D400341C1B /* MIMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 683808F1178447D400341C1B /* MIMapAnnotation.m */; };
+		683808F41784480100341C1B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683808F31784480100341C1B /* CoreLocation.framework */; };
+		683808FA1784493400341C1B /* Safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 683808F61784493400341C1B /* Safari.png */; };
+		683808FB1784493400341C1B /* Safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 683808F71784493400341C1B /* Safari@2x.png */; };
+		683808FC1784493400341C1B /* Safari@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 683808F81784493400341C1B /* Safari@2x~ipad.png */; };
+		683808FD1784493400341C1B /* Safari~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 683808F91784493400341C1B /* Safari~ipad.png */; };
+		683808FF17844D9B00341C1B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683808FE17844D9B00341C1B /* CoreData.framework */; };
+		683809061786A29D00341C1B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683809051786A29D00341C1B /* QuartzCore.framework */; };
+		683809101786A96600341C1B /* MIAddGoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6838090F1786A96600341C1B /* MIAddGoodView.m */; };
+		683809181786B5C000341C1B /* QBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 683809131786B5C000341C1B /* QBPopupMenu.m */; };
+		683809191786B5C000341C1B /* QBPopupMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 683809151786B5C000341C1B /* QBPopupMenuItem.m */; };
+		6838091A1786B5C000341C1B /* QBPopupMenuOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 683809171786B5C000341C1B /* QBPopupMenuOverlayView.m */; };
+		6838091E1786CE0A00341C1B /* MIGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 6838091D1786CE0A00341C1B /* MIGood.m */; };
+		683809211786F93900341C1B /* MILeaseHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 683809201786F93900341C1B /* MILeaseHolder.m */; };
+		683809241786F9E700341C1B /* MIAddLeaseHolderActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 683809231786F9E700341C1B /* MIAddLeaseHolderActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +60,37 @@
 		683808D31784281C00341C1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		683808D51784281C00341C1B /* MIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIViewController.h; sourceTree = "<group>"; };
 		683808D61784281C00341C1B /* MIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIViewController.m; sourceTree = "<group>"; };
+		683808DD178428CF00341C1B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		683808DF1784292300341C1B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		683808E01784292300341C1B /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		683808E617842C6700341C1B /* MIAddGoodActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAddGoodActivity.h; sourceTree = "<group>"; };
+		683808E717842C6700341C1B /* MIAddGoodActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAddGoodActivity.m; sourceTree = "<group>"; };
+		683808E917842DAC00341C1B /* AddGoodViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddGoodViewController_iPad.xib; sourceTree = "<group>"; };
+		683808EC17842DE700341C1B /* MIAddGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAddGoodViewController.h; sourceTree = "<group>"; };
+		683808ED17842DE700341C1B /* MIAddGoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAddGoodViewController.m; sourceTree = "<group>"; };
+		683808F0178447D400341C1B /* MIMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMapAnnotation.h; sourceTree = "<group>"; };
+		683808F1178447D400341C1B /* MIMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMapAnnotation.m; sourceTree = "<group>"; };
+		683808F31784480100341C1B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		683808F61784493400341C1B /* Safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari.png; sourceTree = "<group>"; };
+		683808F71784493400341C1B /* Safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari@2x.png"; sourceTree = "<group>"; };
+		683808F81784493400341C1B /* Safari@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari@2x~ipad.png"; sourceTree = "<group>"; };
+		683808F91784493400341C1B /* Safari~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari~ipad.png"; sourceTree = "<group>"; };
+		683808FE17844D9B00341C1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		683809051786A29D00341C1B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6838090E1786A96600341C1B /* MIAddGoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAddGoodView.h; sourceTree = "<group>"; };
+		6838090F1786A96600341C1B /* MIAddGoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAddGoodView.m; sourceTree = "<group>"; };
+		683809121786B5C000341C1B /* QBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBPopupMenu.h; sourceTree = "<group>"; };
+		683809131786B5C000341C1B /* QBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBPopupMenu.m; sourceTree = "<group>"; };
+		683809141786B5C000341C1B /* QBPopupMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBPopupMenuItem.h; sourceTree = "<group>"; };
+		683809151786B5C000341C1B /* QBPopupMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBPopupMenuItem.m; sourceTree = "<group>"; };
+		683809161786B5C000341C1B /* QBPopupMenuOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBPopupMenuOverlayView.h; sourceTree = "<group>"; };
+		683809171786B5C000341C1B /* QBPopupMenuOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBPopupMenuOverlayView.m; sourceTree = "<group>"; };
+		6838091C1786CE0A00341C1B /* MIGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIGood.h; sourceTree = "<group>"; };
+		6838091D1786CE0A00341C1B /* MIGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIGood.m; sourceTree = "<group>"; };
+		6838091F1786F93900341C1B /* MILeaseHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILeaseHolder.h; sourceTree = "<group>"; };
+		683809201786F93900341C1B /* MILeaseHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILeaseHolder.m; sourceTree = "<group>"; };
+		683809221786F9E700341C1B /* MIAddLeaseHolderActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAddLeaseHolderActivity.h; sourceTree = "<group>"; };
+		683809231786F9E700341C1B /* MIAddLeaseHolderActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAddLeaseHolderActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +98,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683809061786A29D00341C1B /* QuartzCore.framework in Frameworks */,
+				683808FF17844D9B00341C1B /* CoreData.framework in Frameworks */,
+				683808F41784480100341C1B /* CoreLocation.framework in Frameworks */,
+				683808E11784292300341C1B /* AddressBook.framework in Frameworks */,
+				683808E21784292300341C1B /* AddressBookUI.framework in Frameworks */,
+				683808DE178428CF00341C1B /* MapKit.framework in Frameworks */,
 				683808B81784281C00341C1B /* UIKit.framework in Frameworks */,
 				683808BA1784281C00341C1B /* Foundation.framework in Frameworks */,
 				683808BC1784281C00341C1B /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +133,12 @@
 		683808B61784281C00341C1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				683809051786A29D00341C1B /* QuartzCore.framework */,
+				683808FE17844D9B00341C1B /* CoreData.framework */,
+				683808F31784480100341C1B /* CoreLocation.framework */,
+				683808DF1784292300341C1B /* AddressBook.framework */,
+				683808E01784292300341C1B /* AddressBookUI.framework */,
+				683808DD178428CF00341C1B /* MapKit.framework */,
 				683808B71784281C00341C1B /* UIKit.framework */,
 				683808B91784281C00341C1B /* Foundation.framework */,
 				683808BB1784281C00341C1B /* CoreGraphics.framework */,
@@ -85,10 +149,14 @@
 		683808BD1784281C00341C1B /* My Immo */ = {
 			isa = PBXGroup;
 			children = (
+				6838091B1786CDF900341C1B /* Model */,
+				683809071786A2A500341C1B /* UI */,
+				683808EF178447BD00341C1B /* Map */,
+				683808EB17842DCA00341C1B /* Good */,
+				683808E517842C4400341C1B /* Activities */,
+				683808E417842BD100341C1B /* Resources */,
 				683808C61784281C00341C1B /* MIAppDelegate.h */,
 				683808C71784281C00341C1B /* MIAppDelegate.m */,
-				683808CF1784281C00341C1B /* MainStoryboard_iPhone.storyboard */,
-				683808D21784281C00341C1B /* MainStoryboard_iPad.storyboard */,
 				683808D51784281C00341C1B /* MIViewController.h */,
 				683808D61784281C00341C1B /* MIViewController.m */,
 				683808BE1784281C00341C1B /* Supporting Files */,
@@ -108,6 +176,91 @@
 				683808CD1784281C00341C1B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		683808E417842BD100341C1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				683808F5178448D800341C1B /* Images */,
+				683808CF1784281C00341C1B /* MainStoryboard_iPhone.storyboard */,
+				683808D21784281C00341C1B /* MainStoryboard_iPad.storyboard */,
+				683808E917842DAC00341C1B /* AddGoodViewController_iPad.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		683808E517842C4400341C1B /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				683808E617842C6700341C1B /* MIAddGoodActivity.h */,
+				683808E717842C6700341C1B /* MIAddGoodActivity.m */,
+				683809221786F9E700341C1B /* MIAddLeaseHolderActivity.h */,
+				683809231786F9E700341C1B /* MIAddLeaseHolderActivity.m */,
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+		683808EB17842DCA00341C1B /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				683808EC17842DE700341C1B /* MIAddGoodViewController.h */,
+				683808ED17842DE700341C1B /* MIAddGoodViewController.m */,
+			);
+			name = Good;
+			sourceTree = "<group>";
+		};
+		683808EF178447BD00341C1B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				683808F0178447D400341C1B /* MIMapAnnotation.h */,
+				683808F1178447D400341C1B /* MIMapAnnotation.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		683808F5178448D800341C1B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				683808F61784493400341C1B /* Safari.png */,
+				683808F71784493400341C1B /* Safari@2x.png */,
+				683808F81784493400341C1B /* Safari@2x~ipad.png */,
+				683808F91784493400341C1B /* Safari~ipad.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		683809071786A2A500341C1B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				683809111786B5AF00341C1B /* QBPopupMenu */,
+				6838090E1786A96600341C1B /* MIAddGoodView.h */,
+				6838090F1786A96600341C1B /* MIAddGoodView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		683809111786B5AF00341C1B /* QBPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				683809121786B5C000341C1B /* QBPopupMenu.h */,
+				683809131786B5C000341C1B /* QBPopupMenu.m */,
+				683809141786B5C000341C1B /* QBPopupMenuItem.h */,
+				683809151786B5C000341C1B /* QBPopupMenuItem.m */,
+				683809161786B5C000341C1B /* QBPopupMenuOverlayView.h */,
+				683809171786B5C000341C1B /* QBPopupMenuOverlayView.m */,
+			);
+			name = QBPopupMenu;
+			sourceTree = "<group>";
+		};
+		6838091B1786CDF900341C1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6838091C1786CE0A00341C1B /* MIGood.h */,
+				6838091D1786CE0A00341C1B /* MIGood.m */,
+				6838091F1786F93900341C1B /* MILeaseHolder.h */,
+				683809201786F93900341C1B /* MILeaseHolder.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +321,11 @@
 				683808CE1784281C00341C1B /* Default-568h@2x.png in Resources */,
 				683808D11784281C00341C1B /* MainStoryboard_iPhone.storyboard in Resources */,
 				683808D41784281C00341C1B /* MainStoryboard_iPad.storyboard in Resources */,
+				683808EA17842DAC00341C1B /* AddGoodViewController_iPad.xib in Resources */,
+				683808FA1784493400341C1B /* Safari.png in Resources */,
+				683808FB1784493400341C1B /* Safari@2x.png in Resources */,
+				683808FC1784493400341C1B /* Safari@2x~ipad.png in Resources */,
+				683808FD1784493400341C1B /* Safari~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +339,16 @@
 				683808C41784281C00341C1B /* main.m in Sources */,
 				683808C81784281C00341C1B /* MIAppDelegate.m in Sources */,
 				683808D71784281C00341C1B /* MIViewController.m in Sources */,
+				683808E817842C6700341C1B /* MIAddGoodActivity.m in Sources */,
+				683808EE17842DE700341C1B /* MIAddGoodViewController.m in Sources */,
+				683808F2178447D400341C1B /* MIMapAnnotation.m in Sources */,
+				683809101786A96600341C1B /* MIAddGoodView.m in Sources */,
+				683809181786B5C000341C1B /* QBPopupMenu.m in Sources */,
+				683809191786B5C000341C1B /* QBPopupMenuItem.m in Sources */,
+				6838091A1786B5C000341C1B /* QBPopupMenuOverlayView.m in Sources */,
+				6838091E1786CE0A00341C1B /* MIGood.m in Sources */,
+				683809211786F93900341C1B /* MILeaseHolder.m in Sources */,
+				683809241786F9E700341C1B /* MIAddLeaseHolderActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +481,7 @@
 				683808DC1784281C00341C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
