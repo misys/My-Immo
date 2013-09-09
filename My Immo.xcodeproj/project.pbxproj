@@ -40,7 +40,31 @@
 		6838091E1786CE0A00341C1B /* MIGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 6838091D1786CE0A00341C1B /* MIGood.m */; };
 		683809211786F93900341C1B /* MILeaseHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 683809201786F93900341C1B /* MILeaseHolder.m */; };
 		683809241786F9E700341C1B /* MIAddLeaseHolderActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 683809231786F9E700341C1B /* MIAddLeaseHolderActivity.m */; };
+		689A8E6617DDB352001EA542 /* MIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A8E6517DDB352001EA542 /* MIAlertView.m */; };
+		689A8E6917DDBF85001EA542 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 689A8E6717DDBF85001EA542 /* home.png */; };
+		689A8E6A17DDBF85001EA542 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 689A8E6817DDBF85001EA542 /* map.png */; };
+		689A8E7217DDC8A2001EA542 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A8E6C17DDC8A2001EA542 /* libTestFlight.a */; };
+		689A8E7317DDC8A2001EA542 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 689A8E6D17DDC8A2001EA542 /* README.md */; };
+		689A8E7417DDC8A2001EA542 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 689A8E6E17DDC8A2001EA542 /* release_notes.md */; };
+		689A8E7617DDC9A5001EA542 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A8E7517DDC9A5001EA542 /* libz.dylib */; };
+		689A8E8117DDEF0F001EA542 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A8E7A17DDEE27001EA542 /* XCTest.framework */; };
+		689A8E8217DDEF0F001EA542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683808B91784281C00341C1B /* Foundation.framework */; };
+		689A8E8317DDEF0F001EA542 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683808B71784281C00341C1B /* UIKit.framework */; };
+		689A8E8917DDEF0F001EA542 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 689A8E8717DDEF0F001EA542 /* InfoPlist.strings */; };
+		689A8E8B17DDEF0F001EA542 /* My_Immo_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A8E8A17DDEF0F001EA542 /* My_Immo_Tests.m */; };
+		68ABEE4017B93B2100C233E1 /* MICollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ABEE3F17B93B2100C233E1 /* MICollectionViewController.m */; };
+		68ABEE4317B93DF200C233E1 /* MIGoodsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ABEE4217B93DF200C233E1 /* MIGoodsCollection.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689A8E8D17DDEF0F001EA542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 683808AC1784281C00341C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683808B31784281C00341C1B;
+			remoteInfo = "My Immo";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		683808B41784281C00341C1B /* My Immo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Immo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +115,27 @@
 		683809201786F93900341C1B /* MILeaseHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILeaseHolder.m; sourceTree = "<group>"; };
 		683809221786F9E700341C1B /* MIAddLeaseHolderActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAddLeaseHolderActivity.h; sourceTree = "<group>"; };
 		683809231786F9E700341C1B /* MIAddLeaseHolderActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAddLeaseHolderActivity.m; sourceTree = "<group>"; };
+		689A8E6417DDB352001EA542 /* MIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAlertView.h; sourceTree = "<group>"; };
+		689A8E6517DDB352001EA542 /* MIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAlertView.m; sourceTree = "<group>"; };
+		689A8E6717DDBF85001EA542 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		689A8E6817DDBF85001EA542 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		689A8E6C17DDC8A2001EA542 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		689A8E6D17DDC8A2001EA542 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		689A8E6E17DDC8A2001EA542 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		689A8E6F17DDC8A2001EA542 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		689A8E7017DDC8A2001EA542 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		689A8E7117DDC8A2001EA542 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		689A8E7517DDC9A5001EA542 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		689A8E7A17DDEE27001EA542 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		689A8E8017DDEF0E001EA542 /* My Immo Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Immo Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689A8E8617DDEF0F001EA542 /* My Immo Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Immo Tests-Info.plist"; sourceTree = "<group>"; };
+		689A8E8817DDEF0F001EA542 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		689A8E8A17DDEF0F001EA542 /* My_Immo_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Immo_Tests.m; sourceTree = "<group>"; };
+		689A8E8C17DDEF0F001EA542 /* My Immo Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Immo Tests-Prefix.pch"; sourceTree = "<group>"; };
+		68ABEE3E17B93B2100C233E1 /* MICollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICollectionViewController.h; sourceTree = "<group>"; };
+		68ABEE3F17B93B2100C233E1 /* MICollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICollectionViewController.m; sourceTree = "<group>"; };
+		68ABEE4117B93DF200C233E1 /* MIGoodsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIGoodsCollection.h; sourceTree = "<group>"; };
+		68ABEE4217B93DF200C233E1 /* MIGoodsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIGoodsCollection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,15 +143,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689A8E7617DDC9A5001EA542 /* libz.dylib in Frameworks */,
 				683809061786A29D00341C1B /* QuartzCore.framework in Frameworks */,
 				683808FF17844D9B00341C1B /* CoreData.framework in Frameworks */,
 				683808F41784480100341C1B /* CoreLocation.framework in Frameworks */,
 				683808E11784292300341C1B /* AddressBook.framework in Frameworks */,
 				683808E21784292300341C1B /* AddressBookUI.framework in Frameworks */,
+				689A8E7217DDC8A2001EA542 /* libTestFlight.a in Frameworks */,
 				683808DE178428CF00341C1B /* MapKit.framework in Frameworks */,
 				683808B81784281C00341C1B /* UIKit.framework in Frameworks */,
 				683808BA1784281C00341C1B /* Foundation.framework in Frameworks */,
 				683808BC1784281C00341C1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A8E7D17DDEF0E001EA542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A8E8117DDEF0F001EA542 /* XCTest.framework in Frameworks */,
+				689A8E8317DDEF0F001EA542 /* UIKit.framework in Frameworks */,
+				689A8E8217DDEF0F001EA542 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +173,9 @@
 		683808AB1784281C00341C1B = {
 			isa = PBXGroup;
 			children = (
+				689A8E6B17DDC8A2001EA542 /* TestFlightSDK2 */,
 				683808BD1784281C00341C1B /* My Immo */,
+				689A8E8417DDEF0F001EA542 /* My Immo Tests */,
 				683808B61784281C00341C1B /* Frameworks */,
 				683808B51784281C00341C1B /* Products */,
 			);
@@ -126,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				683808B41784281C00341C1B /* My Immo.app */,
+				689A8E8017DDEF0E001EA542 /* My Immo Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +193,8 @@
 		683808B61784281C00341C1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				689A8E7A17DDEE27001EA542 /* XCTest.framework */,
+				689A8E7517DDC9A5001EA542 /* libz.dylib */,
 				683809051786A29D00341C1B /* QuartzCore.framework */,
 				683808FE17844D9B00341C1B /* CoreData.framework */,
 				683808F31784480100341C1B /* CoreLocation.framework */,
@@ -160,6 +222,8 @@
 				683808D51784281C00341C1B /* MIViewController.h */,
 				683808D61784281C00341C1B /* MIViewController.m */,
 				683808BE1784281C00341C1B /* Supporting Files */,
+				68ABEE3E17B93B2100C233E1 /* MICollectionViewController.h */,
+				68ABEE3F17B93B2100C233E1 /* MICollectionViewController.m */,
 			);
 			path = "My Immo";
 			sourceTree = "<group>";
@@ -221,6 +285,8 @@
 		683808F5178448D800341C1B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				689A8E6717DDBF85001EA542 /* home.png */,
+				689A8E6817DDBF85001EA542 /* map.png */,
 				683808F61784493400341C1B /* Safari.png */,
 				683808F71784493400341C1B /* Safari@2x.png */,
 				683808F81784493400341C1B /* Safari@2x~ipad.png */,
@@ -235,6 +301,8 @@
 				683809111786B5AF00341C1B /* QBPopupMenu */,
 				6838090E1786A96600341C1B /* MIAddGoodView.h */,
 				6838090F1786A96600341C1B /* MIAddGoodView.m */,
+				689A8E6417DDB352001EA542 /* MIAlertView.h */,
+				689A8E6517DDB352001EA542 /* MIAlertView.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -259,8 +327,42 @@
 				6838091D1786CE0A00341C1B /* MIGood.m */,
 				6838091F1786F93900341C1B /* MILeaseHolder.h */,
 				683809201786F93900341C1B /* MILeaseHolder.m */,
+				68ABEE4117B93DF200C233E1 /* MIGoodsCollection.h */,
+				68ABEE4217B93DF200C233E1 /* MIGoodsCollection.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		689A8E6B17DDC8A2001EA542 /* TestFlightSDK2 */ = {
+			isa = PBXGroup;
+			children = (
+				689A8E6C17DDC8A2001EA542 /* libTestFlight.a */,
+				689A8E6D17DDC8A2001EA542 /* README.md */,
+				689A8E6E17DDC8A2001EA542 /* release_notes.md */,
+				689A8E6F17DDC8A2001EA542 /* TestFlight+AsyncLogging.h */,
+				689A8E7017DDC8A2001EA542 /* TestFlight+ManualSessions.h */,
+				689A8E7117DDC8A2001EA542 /* TestFlight.h */,
+			);
+			path = TestFlightSDK2;
+			sourceTree = "<group>";
+		};
+		689A8E8417DDEF0F001EA542 /* My Immo Tests */ = {
+			isa = PBXGroup;
+			children = (
+				689A8E8A17DDEF0F001EA542 /* My_Immo_Tests.m */,
+				689A8E8517DDEF0F001EA542 /* Supporting Files */,
+			);
+			path = "My Immo Tests";
+			sourceTree = "<group>";
+		};
+		689A8E8517DDEF0F001EA542 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				689A8E8617DDEF0F001EA542 /* My Immo Tests-Info.plist */,
+				689A8E8717DDEF0F001EA542 /* InfoPlist.strings */,
+				689A8E8C17DDEF0F001EA542 /* My Immo Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +375,7 @@
 				683808B01784281C00341C1B /* Sources */,
 				683808B11784281C00341C1B /* Frameworks */,
 				683808B21784281C00341C1B /* Resources */,
+				68D41EBE17B9252700BF1FEE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -283,6 +386,24 @@
 			productReference = 683808B41784281C00341C1B /* My Immo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		689A8E7F17DDEF0E001EA542 /* My Immo Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689A8E8F17DDEF0F001EA542 /* Build configuration list for PBXNativeTarget "My Immo Tests" */;
+			buildPhases = (
+				689A8E7C17DDEF0E001EA542 /* Sources */,
+				689A8E7D17DDEF0E001EA542 /* Frameworks */,
+				689A8E7E17DDEF0E001EA542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689A8E8E17DDEF0F001EA542 /* PBXTargetDependency */,
+			);
+			name = "My Immo Tests";
+			productName = "My Immo Tests";
+			productReference = 689A8E8017DDEF0E001EA542 /* My Immo Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -292,6 +413,14 @@
 				CLASSPREFIX = MI;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Olivier Michiels";
+				TargetAttributes = {
+					683808B31784281C00341C1B = {
+						DevelopmentTeam = EM242H58S9;
+					};
+					689A8E7F17DDEF0E001EA542 = {
+						TestTargetID = 683808B31784281C00341C1B;
+					};
+				};
 			};
 			buildConfigurationList = 683808AF1784281C00341C1B /* Build configuration list for PBXProject "My Immo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -306,6 +435,7 @@
 			projectRoot = "";
 			targets = (
 				683808B31784281C00341C1B /* My Immo */,
+				689A8E7F17DDEF0E001EA542 /* My Immo Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,19 +447,47 @@
 			files = (
 				683808C21784281C00341C1B /* InfoPlist.strings in Resources */,
 				683808CA1784281C00341C1B /* Default.png in Resources */,
+				689A8E6A17DDBF85001EA542 /* map.png in Resources */,
 				683808CC1784281C00341C1B /* Default@2x.png in Resources */,
 				683808CE1784281C00341C1B /* Default-568h@2x.png in Resources */,
 				683808D11784281C00341C1B /* MainStoryboard_iPhone.storyboard in Resources */,
 				683808D41784281C00341C1B /* MainStoryboard_iPad.storyboard in Resources */,
 				683808EA17842DAC00341C1B /* AddGoodViewController_iPad.xib in Resources */,
 				683808FA1784493400341C1B /* Safari.png in Resources */,
+				689A8E7417DDC8A2001EA542 /* release_notes.md in Resources */,
+				689A8E6917DDBF85001EA542 /* home.png in Resources */,
+				689A8E7317DDC8A2001EA542 /* README.md in Resources */,
 				683808FB1784493400341C1B /* Safari@2x.png in Resources */,
 				683808FC1784493400341C1B /* Safari@2x~ipad.png in Resources */,
 				683808FD1784493400341C1B /* Safari~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		689A8E7E17DDEF0E001EA542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A8E8917DDEF0F001EA542 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68D41EBE17B9252700BF1FEE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "VERSIONNUM=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nNEWVERSION=`echo $VERSIONNUM | awk -F \"b\" '{print $2}'`\nNEWVERSION=$((NEWVERSION + 1))\nNEWVERSIONSTRING=`echo $VERSIONNUM | awk -F \"b\" '{print $1 \"b\" \"'$NEWVERSION'\"}'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $NEWVERSIONSTRING\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\nmv \"${PROJECT_DIR}/${INFOPLIST_FILE}\" \"${PROJECT_DIR}/${INFOPLIST_FILE}.tmp\"\ntr -d '\\001'-'\\011''\\013''\\014''\\016'-'\\037''\\200'-'\\377' < \"${PROJECT_DIR}/${INFOPLIST_FILE}.tmp\" > \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\nrm -f \"${PROJECT_DIR}/${INFOPLIST_FILE}.tmp\"\n/usr/libexec/PlistBuddy -x -c \"Save\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		683808B01784281C00341C1B /* Sources */ = {
@@ -337,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				683808C41784281C00341C1B /* main.m in Sources */,
+				689A8E6617DDB352001EA542 /* MIAlertView.m in Sources */,
 				683808C81784281C00341C1B /* MIAppDelegate.m in Sources */,
 				683808D71784281C00341C1B /* MIViewController.m in Sources */,
 				683808E817842C6700341C1B /* MIAddGoodActivity.m in Sources */,
@@ -349,10 +508,28 @@
 				6838091E1786CE0A00341C1B /* MIGood.m in Sources */,
 				683809211786F93900341C1B /* MILeaseHolder.m in Sources */,
 				683809241786F9E700341C1B /* MIAddLeaseHolderActivity.m in Sources */,
+				68ABEE4017B93B2100C233E1 /* MICollectionViewController.m in Sources */,
+				68ABEE4317B93DF200C233E1 /* MIGoodsCollection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A8E7C17DDEF0E001EA542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A8E8B17DDEF0F001EA542 /* My_Immo_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689A8E8E17DDEF0F001EA542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 683808B31784281C00341C1B /* My Immo */;
+			targetProxy = 689A8E8D17DDEF0F001EA542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		683808C01784281C00341C1B /* InfoPlist.strings */ = {
@@ -377,6 +554,14 @@
 				683808D31784281C00341C1B /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		689A8E8717DDEF0F001EA542 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689A8E8817DDEF0F001EA542 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -443,9 +628,19 @@
 		683808DB1784281C00341C1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Immo/My Immo-Prefix.pch";
 				INFOPLIST_FILE = "My Immo/My Immo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/misys/Dropbox/sources/My\\ Immo/TestFlightSDK2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,11 +649,78 @@
 		683808DC1784281C00341C1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Immo/My Immo-Prefix.pch";
 				INFOPLIST_FILE = "My Immo/My Immo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/misys/Dropbox/sources/My\\ Immo/TestFlightSDK2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		689A8E9017DDEF0F001EA542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Immo.app/My Immo";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Immo Tests/My Immo Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "My Immo Tests/My Immo Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		689A8E9117DDEF0F001EA542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Immo.app/My Immo";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Immo Tests/My Immo Tests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "My Immo Tests/My Immo Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -482,6 +744,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		689A8E8F17DDEF0F001EA542 /* Build configuration list for PBXNativeTarget "My Immo Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A8E9017DDEF0F001EA542 /* Debug */,
+				689A8E9117DDEF0F001EA542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
